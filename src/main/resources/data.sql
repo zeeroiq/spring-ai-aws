@@ -1,0 +1,54 @@
+-- psql INSERT queries for Pet table
+
+-- Assuming you have a table named 'Pet' with columns: id, name, owner, description
+
+INSERT INTO Pet (id, name, owner, description) VALUES (1, 'Buddy', 'Alice', 'A playful and energetic companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (2, 'Lucy', 'Bob', 'A loyal and loving friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (3, 'Max', 'Charlie', 'A curious and adventurous soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (4, 'Daisy', 'David', 'A gentle and affectionate sweetheart.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (5, 'Charlie', 'Eve', 'A smart and trainable buddy.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (6, 'Sadie', 'Frank', 'A calm and relaxed friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (7, 'Rocky', 'Grace', 'A fun-loving and goofy pal.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (8, 'Molly', 'Hannah', 'A sweet and cuddly companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (9, 'Toby', 'Ivy', 'A brave and protective friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (10, 'Maggie', 'Jack', 'A quiet and observant soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (11, 'Buddy', 'Alice', 'A playful and energetic companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (12, 'Lucy', 'Bob', 'A loyal and loving friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (13, 'Max', 'Charlie', 'A curious and adventurous soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (14, 'Daisy', 'David', 'A gentle and affectionate sweetheart.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (15, 'Charlie', 'Eve', 'A smart and trainable buddy.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (16, 'Sadie', 'Frank', 'A calm and relaxed friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (17, 'Rocky', 'Grace', 'A fun-loving and goofy pal.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (18, 'Molly', 'Hannah', 'A sweet and cuddly companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (19, 'Toby', 'Ivy', 'A brave and protective friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (20, 'Maggie', 'Jack', 'A quiet and observant soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (21, 'Buddy', 'Alice', 'A playful and energetic companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (22, 'Lucy', 'Bob', 'A loyal and loving friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (23, 'Max', 'Charlie', 'A curious and adventurous soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (24, 'Daisy', 'David', 'A gentle and affectionate sweetheart.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (25, 'Charlie', 'Eve', 'A smart and trainable buddy.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (26, 'Sadie', 'Frank', 'A calm and relaxed friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (27, 'Rocky', 'Grace', 'A fun-loving and goofy pal.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (28, 'Molly', 'Hannah', 'A sweet and cuddly companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (29, 'Toby', 'Ivy', 'A brave and protective friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (30, 'Maggie', 'Jack', 'A quiet and observant soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (31, 'Buddy', 'Alice', 'A playful and energetic companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (32, 'Lucy', 'Bob', 'A loyal and loving friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (33, 'Max', 'Charlie', 'A curious and adventurous soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (34, 'Daisy', 'David', 'A gentle and affectionate sweetheart.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (35, 'Charlie', 'Eve', 'A smart and trainable buddy.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (36, 'Sadie', 'Frank', 'A calm and relaxed friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (37, 'Rocky', 'Grace', 'A fun-loving and goofy pal.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (38, 'Molly', 'Hannah', 'A sweet and cuddly companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (39, 'Toby', 'Ivy', 'A brave and protective friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (40, 'Maggie', 'Jack', 'A quiet and observant soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (41, 'Buddy', 'Alice', 'A playful and energetic companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (42, 'Lucy', 'Bob', 'A loyal and loving friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (43, 'Max', 'Charlie', 'A curious and adventurous soul.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (44, 'Daisy', 'David', 'A gentle and affectionate sweetheart.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (45, 'Charlie', 'Eve', 'A smart and trainable buddy.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (46, 'Sadie', 'Frank', 'A calm and relaxed friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (47, 'Rocky', 'Grace', 'A fun-loving and goofy pal.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (48, 'Molly', 'Hannah', 'A sweet and cuddly companion.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (49, 'Toby', 'Ivy', 'A brave and protective friend.') on conflict do nothing;
+INSERT INTO Pet (id, name, owner, description) VALUES (50, 'Maggie', 'Jack', 'A quiet and observant soul.') on conflict do nothing;

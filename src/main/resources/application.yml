@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: pets-adoption-service
+
+# database connectivity
+  datasource:
+    url: jdbc:postgresql://localhost/test_db
+    username: test
+    password: password
+
+# amazon bedrock configuration
+  ai:
+    bedrock:
+      converse:
+        chat:
+          enabled: true
+          options:
+            # actual model name, but it can throw error
+            # software.amazon.awssdk.services.bedrockruntime.model.ValidationException: Invocation of model ID amazon.nova-pro-v1:0 with on-demand throughput isn’t supported. Retry your request with the ID or ARN of an inference profile that contains this model. (Service: BedrockRuntime, Status Code: 400, Request ID: 1386c7ae-7aea-4673-8db8-4c725336f32f)
+            # model: amazon.nova-pro-v1:0
+            # so to resolve issue above one might need to use inference profile id name as below
+            model: apac.amazon.nova-pro-v1:0
+      cohere:
+        embedding:
+          enabled: true
+          model: "embed-english-v3.0"
+      aws:
+        access-key: ${AWS_ACCESS_KEY}
+        secret-key: ${AWS_SECRET_KEY}
+        region: ${AWS_REGION}
+
+
+  jpa:
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
