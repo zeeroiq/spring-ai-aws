@@ -19,7 +19,8 @@ spring:
             # software.amazon.awssdk.services.bedrockruntime.model.ValidationException: Invocation of model ID amazon.nova-pro-v1:0 with on-demand throughput isn’t supported. Retry your request with the ID or ARN of an inference profile that contains this model. (Service: BedrockRuntime, Status Code: 400, Request ID: 1386c7ae-7aea-4673-8db8-4c725336f32f)
             # model: amazon.nova-pro-v1:0
             # so to resolve issue above one might need to use inference profile id name as below
-            model: apac.amazon.nova-lite-v1:0
+#            model: apac.amazon.nova-lite-v1:0 # lite shows timeout issues while making call to mcp server
+            model: apac.amazon.nova-pro-v1:0
       cohere:
         embedding:
           enabled: true
