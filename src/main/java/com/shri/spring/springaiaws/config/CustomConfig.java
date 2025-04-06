@@ -2,6 +2,7 @@ package com.shri.spring.springaiaws.config;
 
 import com.shri.spring.springaiaws.repository.PetRepository;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,6 +30,11 @@ public class CustomConfig {
         return chatClient
                 .defaultSystem(defaultSystemPrompt)
                 .build();
+    }
+
+    @Bean
+    protected QuestionAnswerAdvisor questionAnswerAdvisor(VectorStore vectorStore) {
+        return new QuestionAnswerAdvisor(vectorStore);
     }
 
 }
